@@ -18,7 +18,7 @@ var app = {
     */
     onDeviceReady: function() {
         window.open = cordova.InAppBrowser.open;
-        ref = window.open('http://www.google.be', '_blank', 'location=yes');
+        ref = window.open('http://192.168.254.138', '_blank', 'location=yes');
     },
     /*
     appends @message to the message div:
